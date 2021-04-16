@@ -10,7 +10,7 @@
 **Members:**
 
 - Giancarlo Roman (Giancarlo26)
-- Name and surname (Student ID)
+- Juan Galindo (juanpa022)
 - Eileen Apaza (3ileen)
 - Xiomara Puma Torres (xiop-torres)
 - Name and surname (Student ID)
