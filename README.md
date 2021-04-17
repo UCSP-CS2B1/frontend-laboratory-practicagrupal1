@@ -9,7 +9,7 @@
 
 **Members:**
 
-- Name and surname (Student ID)
+- Giancarlo Roman (Giancarlo26)
 - Name and surname (Student ID)
 - Name and surname (Student ID)
 - Name and surname (Student ID)
