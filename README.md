@@ -12,7 +12,7 @@
 - Giancarlo Roman (Giancarlo26)
 - Name and surname (Student ID)
 - Eileen Apaza (3ileen)
-- Name and surname (Student ID)
+- Xiomara Puma Torres (xiop-torres)
 - Name and surname (Student ID)
 
 ---
