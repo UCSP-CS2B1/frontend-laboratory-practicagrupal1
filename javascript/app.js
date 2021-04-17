@@ -32,10 +32,10 @@ function factorial(number) {
 // Param number: single integer
 // Returns a single integer
 function fibonacci(number) {
-
-    //Write your code here
-
-    return -1
+    
+        if (number <= 1) return 1;
+      
+        return fibonacci(number - 1) + fibonacci(number - 2);
 }
 
 // Param expression: string containing a mathematical expression
