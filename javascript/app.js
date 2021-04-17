@@ -22,8 +22,11 @@ function insertion_sort(int[] numbers) {
 function factorial(number) {
 
     //Write your code here
-
-    return -1;
+    var total=1;
+    for(i=1 ; i<=number;i++){
+        total=total*i;
+    }
+    return total;
 }
 
 // Param number: single integer
