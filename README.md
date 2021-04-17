@@ -13,7 +13,7 @@
 - Juan Galindo (juanpa022)
 - Eileen Apaza (3ileen)
 - Xiomara Puma Torres (xiop-torres)
-- Name and surname (Student ID)
+- Italo Kancha Vilca (ItaloKanchaVilca)
 
 ---
 
