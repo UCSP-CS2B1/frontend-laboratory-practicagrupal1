@@ -3,7 +3,7 @@
 function insertion_sort(int[] numbers) {
 
     //Write your code here
-    int b,temp;
+    intv b,temp;
     for(int i=1;i<numbers.size();i++)
     {
         temp=numbers[i];
@@ -40,11 +40,41 @@ function fibonacci(number) {
 
 // Param expression: string containing a mathematical expression
 // Returns an integer value
-function evaluation(expression) {
 
-//NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-    return -1
+function evaluation(operacion)
+{
+
+    var sumador = 0;
+
+    for (var i = 0; i < operacion.length; i++) {
+        if (operacion[i] == "*") {
+            var uno = operacion[i - 1];
+            var dos = operacion[i + 1];
+            console.log(parseInt(uno) * parseInt(dos));
+        }
+
+        if (operacion[i] == "/") {
+            var uno = operacion[i - 1];
+            var dos = operacion[i + 1];
+            console.log(parseInt(uno) / parseInt(dos));
+        }
+
+        if (operacion[i] == "+") {
+            var uno = operacion[i - 1];
+            var dos = operacion[i + 1];
+            console.log(parseInt(uno) + parseInt(dos));
+        }
+
+        if (operacion[i] == "-") {
+            var uno = operacion[i - 1];
+            var dos = operacion[i + 1];
+            console.log(parseInt(uno) - parseInt(dos));
+        }
+    }
 }
+
+evaluacion("5*4-2");
+
 
 
 if(typeof process === 'object') {
