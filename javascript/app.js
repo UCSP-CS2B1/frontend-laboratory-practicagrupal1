@@ -43,37 +43,65 @@ function fibonacci(number) {
 
 function evaluation(operacion)
 {
-
     var sumador = 0;
+    var auxiliar = 0;
 
     for (var i = 0; i < operacion.length; i++) {
-        if (operacion[i] == "*") {
-            var uno = operacion[i - 1];
-            var dos = operacion[i + 1];
-            console.log(parseInt(uno) * parseInt(dos));
+        if (operacion[i] == "*")
+        {
+            if (auxiliar > 0)
+            {
+                sumador = sumador * parseInt(operacion[i + 1]);
+            }
+            else
+            {
+                sumador = (parseInt(operacion[i - 1]) * (parseInt(operacion[i + 1])));
+                auxiliar += 1;
+            }
+        }
+        if (operacion[i] == "/")
+        {
+            if (auxiliar > 0)
+            {
+                sumador /= parseInt(operacion[i + 1]);
+            }
+            else
+            {
+                sumador = (parseInt(operacion[i - 1]) / (parseInt(operacion[i + 1])));
+                auxiliar += 1;
+            }
         }
 
-        if (operacion[i] == "/") {
-            var uno = operacion[i - 1];
-            var dos = operacion[i + 1];
-            console.log(parseInt(uno) / parseInt(dos));
+        if (operacion[i] == "+")
+        {
+            if (auxiliar > 0)
+            {
+                sumador += parseInt(operacion[i + 1]);
+            }
+            else
+            {
+                sumador = (parseInt(operacion[i - 1]) + (parseInt(operacion[i + 1])));
+                auxiliar += 1;
+            }
         }
 
-        if (operacion[i] == "+") {
-            var uno = operacion[i - 1];
-            var dos = operacion[i + 1];
-            console.log(parseInt(uno) + parseInt(dos));
-        }
-
-        if (operacion[i] == "-") {
-            var uno = operacion[i - 1];
-            var dos = operacion[i + 1];
-            console.log(parseInt(uno) - parseInt(dos));
+        if (operacion[i] == "-")
+        {
+            if (auxiliar > 0)
+            {
+                sumador -= parseInt(operacion[i + 1]);
+            }
+            else
+            {
+                sumador = (parseInt(operacion[i - 1]) - (parseInt(operacion[i + 1])));
+                auxiliar += 1;
+            }
         }
     }
+    return sumador;
 }
 
-evaluacion("5*4-2");
+evaluacion("3+5*5/8");
 
 
 
