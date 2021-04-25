@@ -1,19 +1,21 @@
 ## Laboratory Activity
 
-**Grade** -
+**Grade** 12
 
-- (5pts) Layout
-- (5pts) CSS 
-- (5pts) Javascript methods
-- (5pts) Responsiveness
+- (5/5pts) Layout
+- (3/5pts) CSS 
+- (1/5pts) Javascript methods
+- (3/5pts) Responsiveness
+
+-> Algorithms section is empty
 
 **Members:**
 
-- Name and surname (Student ID)
-- Name and surname (Student ID)
-- Name and surname (Student ID)
-- Name and surname (Student ID)
-- Name and surname (Student ID)
+- Giancarlo Roman (Giancarlo26)
+- Juan Galindo (juanpa022)
+- Eileen Apaza (3ileen)
+- Xiomara Puma Torres (xiop-torres)
+- Italo Kancha Vilca (ItaloKanchaVilca)
 
 ---
 
