@@ -1,10 +1,10 @@
 ## Laboratory Activity
 
-**Grade** 11
+**Grade** 12
 
 - (5/5pts) Layout
 - (3/5pts) CSS 
-- (0/5pts) Javascript methods
+- (1/5pts) Javascript methods
 - (3/5pts) Responsiveness
 
 -> Algorithms section is empty
